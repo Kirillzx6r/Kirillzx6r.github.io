@@ -1,0 +1,31 @@
+.honey{
+    width: 100%;
+    height:450px;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff7000+0,ff7000+39,f79800+61,fcb400+100 */
+background: #ff7000; /* Old browsers */
+background: -moz-linear-gradient(left,  #ff7000 0%, #ff7000 39%, #f79800 61%, #fcb400 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #ff7000 0%,#ff7000 39%,#f79800 61%,#fcb400 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #ff7000 0%,#ff7000 39%,#f79800 61%,#fcb400 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff7000', endColorstr='#fcb400',GradientType=1 ); /* IE6-9 */
+
+}
+.Bas{
+    color: white;
+font-size:55px;
+}
+.product{
+    color:white;
+  
+}
+.honey input{
+        height: 40px;
+    text-align: center;
+    border: 2px solid #ffffff;
+    background-color: white;
+    border-radius: 5px;
+color: #ff8100;
+    font-size: 12px;
+    padding: 0px 16px;
+    margin-top: 58px;
+    margin:58px 14px 0px 14px;
+}
