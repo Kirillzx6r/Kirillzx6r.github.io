@@ -14,12 +14,12 @@
 }
 
 
-.menu li {
+.menu li a{
     float: left;
     line-height: 60px;
     color: white;
     margin-right: 40px;
-    font-size: 14px;
+    font-size: 17px;
     text-transform: uppercase;
     color: coral;
 text-decoration: none;
