@@ -22,7 +22,7 @@
     font-size: 14px;
     text-transform: uppercase;
     color: coral;
-
+text-decoration: none;
 
 
 }
@@ -95,7 +95,8 @@
 .imghoney{
    
 }
-. ihoney{
+.ihoney{
+    width: 440px;
     
 }
 
@@ -137,7 +138,33 @@
         height: 1200px;
     }
 }
-
+.noneyprod{
+    margin-top: 150px;
+    border:2px solid #dad3d1;
+    text-align: center;
+    background: #dad3d1;
+    border-radius: 40px;
+}
+.pollen{
+      margin-top: 150px;
+    border:2px solid #dad3d1;
+    text-align: center; 
+       background: #dad3d1;
+       border-radius: 40px;
+}
+.propolis{
+        margin-top: 150px;
+    border:2px solid #dad3d1;
+    text-align: center; 
+       background: #dad3d1;
+       border-radius: 40px;
+}
+.Prod{
+    margin-top: 100px;
+    text-align: center;
+    color: #ff7000;
+    font-size: 64px;
+}
 
 
 
