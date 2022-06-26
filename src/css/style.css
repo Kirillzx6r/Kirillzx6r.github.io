@@ -90,15 +90,35 @@ text-decoration: none;
     border: 2px solid #e1dddc;
     background-color: #e1dddc;
     border-radius: 20px;
+    text-align: center;
      
 }
+@media(max-width: 450px){
+    .texthoney{
+        margin-left: 50px;
+    }
+    .Prod{
+        font-size:50px;
+    }
+    .pollen{
+    width: 330px;  
+    }
+    .noneyprod{
+    width: 330px;  
+    }
+    .propolis{
+          width: 330px; 
+    }
+    .ben{
+        font-size:40px;
+    }
+}
 .imghoney{
+    text-align: center;
+    
    
 }
-.ihoney{
-    width: 440px;
-    
-}
+
 
 @media(max-width: 768px) {
     .imghoney{
@@ -144,13 +164,62 @@ text-decoration: none;
     text-align: center;
     background: #dad3d1;
     border-radius: 40px;
+    justify-content: center
 }
+.noneyprod h1{
+    display: flex;
+    justify-content: flex-start;
+}
+.noneyprod h3{
+    font-size: 15px;
+  text-align: left;
+    display: flex;
+        justify-content: flex-start;
+}
+.noneyprod h4{
+    color: #ff7000;
+    text-align:left;
+    font-size: 45px;
+    margin-top: 60px;
+}
+.noneyprod h5{
+  float: right;
+    margin-top: 75px;
+    
+    
+}
+
+
 .pollen{
       margin-top: 150px;
     border:2px solid #dad3d1;
+    border-width: 4px;    
+
     text-align: center; 
        background: #dad3d1;
        border-radius: 40px;
+}
+.pollen h1{
+    display: flex;
+    justify-content: flex-start;
+}
+.pollen h3{
+    font-size: 15px;
+  text-align: left;
+    display: flex;
+        justify-content: flex-start;
+}
+.pollen h4{
+    color: #ff7000;
+    text-align:left;
+    font-size: 45px;
+    margin-top: 60px;
+}
+.pollen h5{
+  float: right;
+    margin-top: 75px;
+    
+    
 }
 .propolis{
         margin-top: 150px;
@@ -158,6 +227,28 @@ text-decoration: none;
     text-align: center; 
        background: #dad3d1;
        border-radius: 40px;
+}
+.propolis h1{
+    display: flex;
+    justify-content: flex-start;
+}
+.propolis h3{
+    font-size: 15px;
+  text-align: left;
+    display: flex;
+        justify-content: flex-start;
+}
+.propolis h4{
+    color: #ff7000;
+    text-align:left;
+    font-size: 45px;
+    margin-top: 60px;
+}
+.propolis h5{
+  float: right;
+    margin-top: 75px;
+    
+    
 }
 .Prod{
     margin-top: 100px;
@@ -167,6 +258,204 @@ text-decoration: none;
 }
 
 
+
+
+.wax{
+    margin-top: 150px;
+    border:2px solid #dad3d1;
+    text-align: center;
+    background: #dad3d1;
+    border-radius: 40px;
+    justify-content: center
+}
+.wax h1{
+    display: flex;
+    justify-content: flex-start;
+}
+.wax h3{
+    font-size: 15px;
+  text-align: left;
+    display: flex;
+        justify-content: flex-start;
+}
+.wax h4{
+    color: #ff7000;
+    text-align:left;
+    font-size: 45px;
+    margin-top: 140px;
+}
+.wax h5{
+  float: right;
+    margin-top: 155px;
+    
+    
+}
+
+
+.bees{
+      margin-top: 150px;
+    border:2px solid #dad3d1;
+    border-width: 4px;    
+
+    text-align: center; 
+       background: #dad3d1;
+       border-radius: 40px;
+}
+.bees h1{
+    display: flex;
+    justify-content: flex-start;
+}
+.bees h3{
+    font-size: 15px;
+  text-align: left;
+    display: flex;
+        justify-content: flex-start;
+}
+.bees h4{
+    color: #ff7000;
+    text-align:left;
+    font-size: 45px;
+    margin-top: 100px;
+}
+.bees h5{
+  float: right;
+    margin-top: 115px;
+    
+    
+}
+.matka{
+        margin-top: 150px;
+    border:2px solid #dad3d1;
+    text-align: center; 
+       background: #dad3d1;
+       border-radius: 40px;
+}
+.matka h1{
+    display: flex;
+    justify-content: flex-start;
+}
+.matka h3{
+    font-size: 15px;
+  text-align: left;
+    display: flex;
+        justify-content: flex-start;
+}
+.matka h4{
+    color: #ff7000;
+    text-align:left;
+    font-size: 45px;
+    margin-top: 100px;
+}
+.matka h5{
+  float: right;
+    margin-top: 115px;
+    
+    
+}
+
+@media(max-width: 450px){
+  
+    .wax{
+        width: 330px;
+    }
+    .bees{
+    width: 330px;  
+    }
+    .matka{
+    width: 330px;  
+    }
+}
+.contact{
+    background:#ffab00;
+    width: 100%;
+    height: 550px;
+    margin-top: 100px;
+}
+.contact h1{
+    color: white;
+    font-size: 64px;
+    text-align: center;
+}
+.adres {
+    color: #191b1d;
+    margin-top: 100px;
+    border: 2px solid white;
+    border-radius: 20px;
+    background: white;
+    padding-right: 300px;
+    padding-left: 20px;
+    width: 600px;
+}
+@media(max-width: 450px){
+    .adres {
+        width: 200px;
+    }
+    
+}
+.adres h4 {
+    color: #38414b;
+    font-size: 20px;
+}
+
+.adresa{
+    margin-bottom: 30px;
+}
+.phone{
+      margin-bottom: 30px;
+}
+.imglogca{
+   display: flex;
+    justify-content: flex-end;
+}
+.conez{
+    background: #ff7000;
+    width: 100%;
+    height: 80px;
+}
+
+.conezhoney h4{
+    margin-top:25px;
+	font-family: Arial;
+	font-size: 22px;
+	color: #FFFF00;
+	text-shadow: 
+		-0   -1px 0   #000000,
+		 0   -1px 0   #000000,
+		-0    1px 0   #000000,
+		 0    1px 0   #000000,
+		-1px -0   0   #000000,
+		 1px -0   0   #000000,
+		-1px  0   0   #000000,
+		 1px  0   0   #000000,
+		-1px -1px 0   #000000,
+		 1px -1px 0   #000000,
+		-1px  1px 0   #000000,
+		 1px  1px 0   #000000,
+		-1px -1px 0   #000000,
+		 1px -1px 0   #000000,
+		-1px  1px 0   #000000,
+		 1px  1px 0   #000000;
+}
+.coneznumber h5{
+    color:white;
+    font-size: 14px;
+}
+.konezpochata h5 {
+    margin-top: 3px;
+    color:white;
+}
+@media(max-width:450px){
+    .conezhoney h4{
+        font-size: 18px;
+    }
+    .coneznumber h5{
+        font-size: 14px;
+    }
+    .konezpochata h5 {
+        font-size: 14px;
+    }
+    
+}
 
 
 
