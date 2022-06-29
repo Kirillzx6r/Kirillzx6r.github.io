@@ -109,9 +109,7 @@ text-decoration: none;
     .propolis{
           width: 330px; 
     }
-    .ben{
-        font-size:40px;
-    }
+   
 }
 .imghoney{
     text-align: center;
@@ -136,12 +134,22 @@ text-decoration: none;
     margin-top: 100px;
 }
 
-.ben{
+.ben {
 
       text-align: center;
     color: white;
     font-size: 55px;
     margin-bottom: 150px;
+}
+
+@media(max-width: 450px){
+ .ben {
+        font-size:40px;
+    }
+    
+    
+    
+    
 }
 .benf:first-child{
     
@@ -386,9 +394,9 @@ text-decoration: none;
     padding-left: 20px;
     width: 600px;
 }
-@media(max-width: 450px){
+@media(max-width: 800px){
     .adres {
-        width: 200px;
+        width: 100px;
     }
     
 }
@@ -454,6 +462,12 @@ text-decoration: none;
     .konezpochata h5 {
         font-size: 14px;
     }
+    
+}
+.logka{
+   
+    margin-top: 100px;
+
     
 }
 
