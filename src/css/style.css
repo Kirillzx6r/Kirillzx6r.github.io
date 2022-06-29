@@ -4,6 +4,14 @@
 }
 
 
+.menu3{
+    width: 100%;
+    height:65px;
+background: white;
+
+   position: fixed;
+    z-index: 100;
+}
 
 .logo {
     color: #fff;
@@ -32,9 +40,11 @@ text-decoration: none;
 
 
 
+
 .honey {
+   
     width: 100%;
-    height: 550px;
+    height: 600px;
    
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff7000+0,ff7000+39,f79800+61,fcb400+100 */
     background: #ff7000;
@@ -47,19 +57,20 @@ text-decoration: none;
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff7000', endColorstr='#fcb400', GradientType=1);
     /* IE6-9 */
-
+    
+    
 }
 
 
 .Bas {
     color: white;
     font-size: 55px;
-    margin-top: 50px;
+    margin-top: 70px;
 }
 
 .product {
     color: white;
-     margin-top: 50px;
+     margin-top: 70px;
 
 }
 
@@ -72,13 +83,13 @@ text-decoration: none;
     color: #ff8100;
     font-size: 12px;
     padding: 0px 40px;
-    margin-top: 58px;
+    margin-top: 78px;
     margin: 58px 14px 0px 14px;
 }
 
 
 .honeycombs{
-        margin-top: 50px;
+        margin-top: 70px;
 }
 .Nas{
     text-align: center;
@@ -384,15 +395,14 @@ text-decoration: none;
     font-size: 64px;
     text-align: center;
 }
+
+
 .adres {
     color: #191b1d;
     margin-top: 100px;
-    border: 2px solid white;
-    border-radius: 20px;
-    background: white;
-    padding-right: 300px;
-    padding-left: 20px;
-    width: 600px;
+
+
+    text-align: center;
 }
 @media(max-width: 800px){
     .adres {
@@ -467,8 +477,9 @@ text-decoration: none;
 .logka{
    
     margin-top: 100px;
+    margin-left: 170px;
 
-    
+  
 }
 
 
