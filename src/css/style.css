@@ -2,9 +2,7 @@
     font-family: Arial, sans-serif;
 
 }
-.kol{
-    margin-top: 300px;
-}
+
 
 .menu3{
     width: 100%;
@@ -16,45 +14,13 @@ background: #ffff00;
 }
 
 .logo {
-font-family: 'Shadows Into Light', cursive;
+    color: #fff;
+    font-size: 23px;
     line-height: 60px;
     float: left;
-    margin-top: 5px;
-	font-size: 22px;
-	color: #f6ff00;
-	text-shadow: 
-		-0   -1px 0   #000000,
-		 0   -1px 0   #000000,
-		-0    1px 0   #000000,
-		 0    1px 0   #000000,
-		-1px -0   0   #000000,
-		 1px -0   0   #000000,
-		-1px  0   0   #000000,
-		 1px  0   0   #000000,
-		-1px -1px 0   #000000,
-		 1px -1px 0   #000000,
-		-1px  1px 0   #000000,
-		 1px  1px 0   #000000,
-		-1px -1px 0   #000000,
-		 1px -1px 0   #000000,
-		-1px  1px 0   #000000,
-		 1px  1px 0   #000000;
-    
+    color: coral;
 }
 
-
-
-
-
-span{
-    color:red;
-}
-@media(max-width:412px){
-    
-    .logo{
-        font-size: 18px;
-    }
-}
 
 .menu li a{
     float: left;
@@ -65,115 +31,53 @@ span{
     text-transform: uppercase;
     color: coral;
 text-decoration: none;
-    
-    
-    transition: all 0.1s;
-    transform: scale(1);
-    display: inline-block;
-    
-     -webkit-animation:topshift 0.4s ease forwards;
-    -o-animation:topshift 0.4s ease forwards;
-    animation: topshift 0.4s ease forwards;
-    opacity: 0;
+
+
+}
+
+
+
+
+
+
+
+.honey {
    
-}
-
-
-
-@keyframes topshift {
-    from{
-        opacity: 0;
-        margin-top: -80px; 
-    }
-
-
-to {
-   opacity: 1; 
-    margin-top: 0px;
-}   
-}
-.menu li:nth-child(2){
-    animation-delay: 0.4;
-}
-.menu li:nth-child(3){
-    animation-delay: 0.8;
-}
-.menu li:nth-child(4){
-    animation-delay: 1.2;
-}
-
-
-
-
-.menu li a:hover{
-    color:#8c847e;
- 
-}
-
-.menu li a:active{
-       transform: scale(1.1);
-}
-
-.honey{
-background:#ff7000;
     width: 100%;
-    height: 550px;
-
+    height: 600px;
+   
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff7000+0,ff7000+39,f79800+61,fcb400+100 */
+    background: #ff7000;
+    /* Old browsers */
+    background: -moz-linear-gradient(left, #ff7000 0%, #ff7000 39%, #f79800 61%, #fcb400 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #ff7000 0%, #ff7000 39%, #f79800 61%, #fcb400 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #ff7000 0%, #ff7000 39%, #f79800 61%, #fcb400 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff7000', endColorstr='#fcb400', GradientType=1);
+    /* IE6-9 */
     
-}
-.honeycombs{
-    margin-top: 100px;
-}
-.Bas{
-        color: white;
-}
-
-.product{
-        color: white;
-}
-
-
-
-
-.honeu{
-
-    margin-top: 100px;
-}
-.Bas{
-    font-size:65px;
-}
-@media(max-width:780px){
-    .Bas{
-        font-size: 45px;
-    }
-}
-@media(max-width:525px){
-    .Bas{
-        font-size: 21px;
-    }
-    .product{
-        font-size: 17px;
-    }
-    .log{
-        width: 160px;
-    }
-}
-.log {
-    display:none;
-}
-
- @media (min-width:320px) and (max-width:570px) {
-   .log{
-         display:block;
-    }
     
 }
 
 
+.Bas {
+    color: white;
+    font-size: 55px;
+    margin-top: 70px;
+}
+@media(max-width:440px){
+    .Bas{
+        font-size: 35px;
+    }
+}
 
+.product {
+    color: white;
+     margin-top: 70px;
 
-
-
+}
 .href{
      border: 2px solid #ffffff;
     padding-left: 30px;
@@ -186,8 +90,25 @@ background:#ff7000;
 
 
 
+.honeycombs{
+        margin-top: 70px;
 
-
+}
+@media(max-width: 1210px){
+.honeyu{
+      width: 400px;
+    height: 300px;
+    margin-top:100px;
+  
+}
+}
+@media(max-width: 930px){
+.honeyu{
+      width: 230px;
+    height: 180px;
+  
+}
+}
 
 .Nas{
     text-align: center;
@@ -202,9 +123,10 @@ background:#ff7000;
     text-align: center;
      
 }
-
 @media(max-width: 770px){
-
+    .texthoney{
+        margin-left: 50px;
+    }
 
     .pollen{
     width: 300px;  
@@ -219,26 +141,24 @@ background:#ff7000;
 }
 .imghoney{
     text-align: center;
-    display: flex;
     
-      width: 330px;
-        height: 396px;
+   
 }
 
 
 @media(max-width: 768px) {
     .imghoney{
         display: flex;
-        width: 330px;
-        height: 396px;
+        width: 370px;
+        height: 436px;
         
     }
 }
 @media(max-width: 600px){
       .imghoney{
      display: flex;
-        width: 240px;
-        height: 306px;
+        width: 320px;
+        height: 386px;
     }
 }
 
@@ -303,11 +223,11 @@ background:#ff7000;
     color: #ff7000;
     text-align:left;
     font-size: 45px;
-    margin-top: 90px;
+    margin-top: 60px;
 }
 .noneyprod h5{
   float: right;
-    margin-top: 105px;
+    margin-top: 75px;
     
     
 }
@@ -527,7 +447,7 @@ background:#ff7000;
         border: 2px solid white;
     background: white;
     border-radius: 25px;
-    margin-top: 80px;
+    margin-top: 100px;
 width: 300px;
   
 }
@@ -576,12 +496,11 @@ width: 300px;
 		-1px  1px 0   #000000,
 		 1px  1px 0   #000000;
 }
-.conezhoney h4 {
-    font-family: 'Shadows Into Light', cursive;
-   
-    
-}
+.coneznumber h5{
+    color:white;
+    font-size: 14px;
 
+}
 .konezpochata h5 {
     margin-top: 3px;
     color:white;
@@ -590,16 +509,12 @@ width: 300px;
     .conezhoney h4{
         font-size: 18px;
     }
- 
+    .coneznumber h5{
+        font-size: 14px;
+    }
     .konezpochata h5 {
         font-size: 14px;
-           margin-top: 15px;
     }
-    
-}
-.icon{
-    margin-top: 20px;
-    
     
 }
 
