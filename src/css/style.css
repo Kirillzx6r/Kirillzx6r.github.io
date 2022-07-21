@@ -64,7 +64,7 @@ text-decoration: none;
 }
 
 
-.hreff{
+.hreff {
  
          border: 2px solid white;
     padding-left: 30px;
@@ -73,6 +73,8 @@ text-decoration: none;
     color: white;
         margin-top: 100px;
 }
+
+
 @media(max-width: 400px){
     .href{
          padding-left: 8px;
@@ -91,7 +93,7 @@ background-color: white;
         position: relative;
         z-index: 3;
     }
-
+;
     .glav{
         position: relative;
     }
