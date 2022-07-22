@@ -73,7 +73,21 @@ text-decoration: none;
     color: white;
         margin-top: 100px;
 }
-
+.col-form-label{
+    color:black;
+}
+.modal-title{
+      color:black;
+}
+.form-label{
+        color:black;
+}
+.form-check-label{
+        color:black;
+}
+.form-label{
+        color:black;
+}
 
 @media(max-width: 400px){
     .href{
@@ -91,7 +105,7 @@ background-color: white;
 @media (max-width:992px){
     .veb, .veb h4{
         position: relative;
-        z-index: 3;
+        z-index: 6;
     }
 ;
     .glav{
@@ -112,7 +126,29 @@ background-color: white;
     border-bottom: 3px solid #323190; /* Параметры линии */
        margin-top: 20px;
    }
-
+.foto{
+    text-align: center;
+}
+.text h1{
+    text-align: left;
+}
+.text h3{
+    text-align:left;
+}
+.text h5{
+    text-align: left;
+}
+@media(max-width:445px){
+    .text h1{
+    text-align: center;
+}
+.text h3{
+    text-align:center;
+}
+.text h5{
+    text-align: center;
+}
+}
 
 
 
