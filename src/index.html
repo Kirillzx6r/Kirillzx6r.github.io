@@ -81,8 +81,8 @@
 
     <section class="">
         <div class=" glav">
-            <div class="container  w-100  ">
-                <div class="row align-items-end w-100   ">
+            <div class="container  w-100 h-100  ">
+                <div class="row align-items-end w-100    ">
                     <div class=" offset-lg-6 col-lg-6    veb">
                         <h4>ВЕБ-РАЗРАБОТЧИК <br><br></h4>
                         <h1>КИРИЛЛ КОЗЛОВ<br><br></h1>
@@ -191,11 +191,11 @@
 
 
     </section>
-    
-    
-    
-    
-    
+
+
+
+
+
     <br>
     <br>
     <!-- Модальное окно -->
@@ -275,157 +275,264 @@
     <section class="YA">
         <div class="container">
             <div class="row">
-                <div class="   justify-content-center foto col  ml-2 pl-4 mt-5 pt-5    "> <img class="" src="img/%D1%84%D0%BE%D1%82%D0%BE.png" alt=""></div>
-                <div class="justify-content-center   col  col-lg-6  offset-md-1 col-xs-4  offset-sm-1  mt-5 text ">
+                <div class="   justify-content-center foto col   mt-5 pt-5 "> <img class="" src="img/%D1%84%D0%BE%D1%82%D0%BE.png" alt=""></div>
+
+
+                <div class="justify-content-center   col  col-lg-6  col-md-4 offset-md-1 col-xs-3  offset-sm-1  mt-5 text ">
                     <h1>Обо мне</h1><br>
                     <h3>Меня зовут Козлов Кирилл</h3><br>
                     <h3>Занимаюсь разработкой веб-проектов под ключ и их техническим сопровождением.</h3><br>
                     <br>
                     <h5>Задача организации, в особенности же укрепление и развитие структуры играет важную роль в<br> формировании форм развития. Разнообразный и богатый опыт постоянный количественный рост и <br>сфера нашей активности представляет собой интересный эксперимент проверки новых<br> предложений.
-                    </div>
-                    
-                    
-                   
-                       
-                    </div>
-                    </div>
-                </section>
+                </div>
 
-            
-    
-             
-       
-              
-              
-            <section >
-            <div class="Ymeu">
 
-                <div class="container w-100 ">
-                    <div class="row justify-content-center w-100 Ymeua ">
-                       
-                       <h1>Что я умею</h1>
-                        <div class="  col-2 offset-2 raz">
-                            <img class="" src="img/HIPS.png" alt="">
-                            <h3>Разработка</h3>
-                            
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <section>
+        <div class="Ymeu">
+
+            <h1 class="Ymeua">Что я умею </h1>
+
+            <div class="container ">
+
+                <div class="row justify-content-center   ">
+
+
+                    <div class="  col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-xs-2  raz">
+                        <img class="" src="img/HIPS.png" alt="">
+                        <h3>Разработка</h3>
+                        <h5>Занимаюсь <br> веб разработкой<br> под ключ</h5>
+
+                    </div>
+                    <div class=" offset-2  col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-xs-2   razz">
+                        <img src="img/Binary%20Code.png" alt="">
+                        <h3>Разработка</h3>
+                        <h5>Занимаюсь <br> веб разработкой<br> под ключ</h5>
+
+
+                    </div>
+
+
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-1 justify-content-center">
+
+                    <button type="button" class="btn btn-primary hreffff" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                       Связаться со мной
+                    </button>
+
+                    <!-- Модальное окно -->
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="staticBackdropLabel">Обратная связь </h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form action="php/mail.php" method="post">
+                                        <div class="row mb-3">
+                                            <label for="inputEmail3" class="col-sm-2 col-form-label">Эл. почта</label>
+                                            <div class="col-sm-10">
+                                                <input type="email" name="user_email" class="form-control" id="inputEmail3" placeholder="Ведите email">
+                                            </div>
+                                        </div>
+                                        <div class="row mb-3">
+                                            <label for="inputPassword3" class="col-sm-2 col-form-label">Телефон</label>
+                                            <div class="col-sm-10">
+                                                <input type="phone" name="user_phone" class="form-control" id="inputPassword3" placeholder="Введите телефон">
+                                            </div>
+                                        </div>
+                                        <div class="row mb-3 ">
+                                            <label for="formGroupExampleInput2" class="col-sm-2 form-label">Ваш заказ</label>
+                                            <div class="col-sm-10">
+                                                <input type="order" name="user_order" class="form-control " id="formGroupExampleInput2" placeholder="Введите свой заказ ">
+                                            </div>
+                                        </div>
+                                        <fieldset class="row mb-3">
+                                            <legend class="col-form-label col-sm-6 pt-0">Вы первый раз на этом сайте? </legend>
+                                            <div class="col-sm-3">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio" name="Radios" id="gridRadios1" value="option1" checked>
+                                                    <label class="form-check-label" for="gridRadios1">
+                                                        Да
+                                                    </label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio" name="Radios" id="gridRadios2" value="option2">
+                                                    <label class="form-check-label" for="gridRadios2">
+                                                        Нет
+                                                    </label>
+                                                </div>
+
+                                            </div>
+                                        </fieldset>
+
+                                        <div class="row mb-3">
+                                            <div class="col-sm-10 offset-sm-2">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" name="check" id="gridCheck1">
+                                                    <label class="form-check-label" for="gridCheck1">
+                                                        Пользовательское соглашение
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <button type="submit" class="btn btn-primary">Отправить</button>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+
+                                </div>
+                            </div>
                         </div>
-                        <div class="offset-2 col-2 offset-2 razz">
-                            <img src="img/Binary%20Code.png" alt="">
-                            <h3>Разработка</h3>
-                            
-                            
-                        </div>
-                      
+                    </div>
                     </div>
                 </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+    <section>
+        <h1 class="text-center mt-5 pt-5">Мои работы</h1>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-5 pchelprod">
+                    <h3>Сайт для пчелопродуктов</h3>
+
+                    <img src="img/%D0%BA%D0%B5%D0%B9%D1%81%D1%8B.png" alt="">
+
                 </div>
-            </section>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-
-
-            <br>
-            <br>
-            <br>
+            </div>
+        </div>
 
 
 
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
 
 
-            <script src="js/bootstrap.bundle.min.js"></script>
+    <br>
+    <br>
+    <br>
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
 
 
 </body>

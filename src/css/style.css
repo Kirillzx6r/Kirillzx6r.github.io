@@ -112,6 +112,7 @@ background-color: white;
         position: relative;
     }
     .glav::after{
+        height: 600px;
         content: "";
         bottom:0;
         top:0;
@@ -156,7 +157,7 @@ background-color: white;
     margin-top: 100px;
 
 }
-.Ymeua h1{
+.Ymeua {
     color: white;
     text-align: center;
     margin-top: 40px;
@@ -168,24 +169,42 @@ background-color: white;
 .raz{
     text-align: center;
     border: 2px solid white;
- 
+ border-radius: 20px;
     background: white;
         margin-top: 70px;
 }
 .razz{
         text-align: center;
     border: 2px solid white;
+     border-radius: 20px;
     background: white;
     margin-top: 70px;
 }
 .razz h3{
     color: blue;
 }
+.pchelprod{
+    border: 1px solid blue;
+    border-radius: 15px;
+    margin-top: 20px;
+}
 
+.pchelprod h3 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: blue;
+}
 
-
-
-
+.hreffff{
+     border: 2px solid black;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #4743f4;
+    margin-top: 80px;
+    color: white;
+}
+   
+ 
 
 
 
